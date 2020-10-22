@@ -1,0 +1,29 @@
+* {                     /*margin and padding removed*/
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-image: url(images/Tavern1.png);       /*background image*/
+    background-size: cover;
+}
+
+div {
+    padding-left: 300px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top:px;  
+}
+div p {
+    color: rgb(255, 251, 200);
+}
+div h1 {
+    color: rgb(255, 251, 200);
+}
+.resize-img{
+	width:350px;
+	height:200px;
+}
+.resize-img2{
+	width:200px;
+	height:400px;
+}

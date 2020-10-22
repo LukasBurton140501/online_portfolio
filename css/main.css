@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body{
+
+    font-family: helvetica, arial, sans-serif;	/*text fonts*/
+	font-size:1em;								/*font size*/	
+	
+}
+h1, h2{
+    font-family: 'Raleway', sans-serif;     /*font for header*/
+}
+h1{
+	text-shadow: 2px 2px 8px rgb(129, 129, 129);	/*name shadow*/
+}
+img{
+	opacity: 0.5;	                    /*image opacity*/
+}
+#container{                                            
+	width:100%;			/*				*/                               
+	margin:auto;		/*	header size	*/
+	max-width: 1200px;	/*				*/
+	min-width: 600px;	/*				*/
+}
+header{
+	background-color:#263248;	                          /*                   */
+	border-radius:8px;                                      /*                   */
+	display:flex;                                           /* header paramiters */
+	justify-content: space-between;                         /*                   */
+	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);    /*                   */
+}
+nav li a{
+	text-decoration:none;		  /*text decorations*/
+	columns: rgb(114, 114, 114);		/*not used as of now*/		
+}
+nav li a:hover{
+	color:rgb(64, 71, 109);	/*not realy sure*/
+}
+nav ul{
+	padding-left:0;     /*quilification table*/
+	list-style:none;	/*i think*/
+}
+nav ul li{	
+	display:inline;								/*header space lines*/
+	padding-left:10px;							/*size*/
+	border-left:1px solid rgb(73, 89, 134);	  /*colour*/	
+	padding-right:10px;							/*size*/
+	border-bottom:none;							/*not used*/
+}
+nav li:first-child{								/*table cells*/
+	border-left:none;	
+}
+#logo{
+	width:550px;		/*link font sizes*/
+}
+#logo h1{
+	padding:10px;	/*gap between text and border*/
+}
+#logo a{
+	text-decoration:none; /*name colour*/
+	color:rgb(250, 249, 249);	
+}
+#content{
+	display: flex;
+}
+section{
+	padding:0 10px 10px 0;
+}
+.resize-img{
+	width:100%;
+	height:100%;
+}
+.sidebar{
+	flex:0 1 200px;
+	min-width: 200px;
+	padding:20px 40px;	
+	border:1px solid #ccc;
+	border-radius:8px;
+	margin: 70px 0 0 10px;
+	background-color: #ccc;
+}
+.floatRight{
+	float:right;
+	padding:5px;
+	border:1px solid #ccc;
+}
+table{
+	width:600px;	
+}
+th, td{
+	padding:10px 4px;
+	text-align:left;	
+}	
+th{
+	text-transform:uppercase;
+	border-bottom:4px solid rgb(90, 90, 90);	
+	background-color:rgb(255, 255, 255);	
+}
+tr:nth-child(odd){
+	background-color:rgb(56, 56, 56);	
+}
+dt{
+	font-weight:bold;
+	border-top:1px dashed #ccc;	
+	padding:20px 0;	
+}
+dt:first-child{
+	border-top:none;
+}
+
+dd{
+	padding:0 0 20px 0;
+}
+/* Added form styles*/
+label{
+	display:inline-block;
+	width:120px;
+	vertical-align:top;
+}
+input[type=text], input[type=email], input[type=tel]{
+	width:200px;
+	padding:5px;
+	font-family: Helvetica, Arial, sans-serif;		
+}
+textarea{
+	width:400px;
+	padding:5px;
+	font-family: Helvetica, Arial, sans-serif;		
+}
+footer{
+	border-top:1px solid #ccc;
+	margin:20px 10px 10px 0;
+	clear:both;	
+	font-size:0.8em;
+	text-align:center;
+	font-style:italic;
+}
