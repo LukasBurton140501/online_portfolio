@@ -8,15 +8,25 @@ body{
 }
 
 div {
-    padding-left: 300px;
+    padding-left: 100px;
     padding-right: 40px;
-    padding-bottom: 20px;
-    padding-top:px;  
+    padding-bottom: px;
+    padding-top:150px;  
 }
 div p {
     color: rgb(255, 251, 200);
+    padding-bottom: 3px;
+    padding-top: 3px;
 }
 div h1 {
+    color: rgb(255, 251, 200);
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+div h2 {
+    color: rgb(255, 251, 200);
+}
+div h3 {
     color: rgb(255, 251, 200);
 }
 .resize-img{
@@ -26,4 +36,11 @@ div h1 {
 .resize-img2{
 	width:200px;
 	height:400px;
+}
+.highlight{
+    background-image: linear-gradient(to right,
+    rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    border-radius: 6px;
+    padding: 6px 6px;
+
 }
