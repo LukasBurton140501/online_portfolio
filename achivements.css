@@ -14,16 +14,23 @@ div {
     padding-top:px;  
 }
 div p {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 div h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .resize-img{
 	width:350px;
 	height:200px;
 }
 .resize-img2{
-	width:200px;
-	height:400px;
+	width:500px;
+	height:300px;
+}
+.highlight{
+    background-image: linear-gradient(to right,
+    rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    border-radius: 6px;
+    padding: 3px 6px;
+
 }
