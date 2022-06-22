@@ -13,8 +13,13 @@ div {
     padding-bottom: 20px;
     padding-top:px;  
 }
+
 div p {
     color: rgb(255, 255, 255);
+    padding-left: 300px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top:px; 
 }
 div h1 {
     color: rgb(255, 255, 255);

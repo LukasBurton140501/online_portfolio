@@ -14,7 +14,11 @@ div {
     padding-top:250px;  
 }
 div p {
-    color: rgb(255, 251, 200);
+    color: rgb(255, 255, 255);
+    padding-left: 300px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top:px; 
 }
 div h1 {
     color: rgb(255, 251, 200);
