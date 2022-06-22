@@ -29,7 +29,7 @@ header{
 }
 nav li a{
 	text-decoration:none;		  /*text decorations*/
-	columns: rgb(114, 114, 114);		/*not used as of now*/		
+	columns: rgb(194, 194, 194);		/*not used as of now*/		
 }
 nav li a:hover{
 	color:rgb(64, 71, 109);	/*not realy sure*/
@@ -95,7 +95,7 @@ th{
 	background-color:rgb(255, 255, 255);	
 }
 tr:nth-child(odd){
-	background-color:rgb(56, 56, 56);	
+	background-color:rgb(175, 175, 175);	
 }
 dt{
 	font-weight:bold;
