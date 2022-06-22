@@ -10,11 +10,12 @@ body{
 div {
     padding-left: 100px;
     padding-right: 40px;
-    padding-bottom: 5px;
+    padding-bottom: px;
     padding-top:150px;  
 }
 div p {
     color: rgb(255, 251, 200);
+    padding-bottom: 3px;
 }
 div h1 {
     color: rgb(255, 251, 200);
