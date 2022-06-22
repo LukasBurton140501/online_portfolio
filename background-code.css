@@ -33,3 +33,10 @@ div h3 {
 	width:200px;
 	height:400px;
 }
+.highlight{
+    background-image: linear-gradient(to right,
+    rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    border-radius: 6px;
+    padding: 3px 6px;
+
+}
