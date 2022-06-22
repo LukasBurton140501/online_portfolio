@@ -20,6 +20,8 @@ div p {
 }
 div h1 {
     color: rgb(255, 251, 200);
+    padding-bottom: 3px;
+    padding-top: 3px;
 }
 div h2 {
     color: rgb(255, 251, 200);
